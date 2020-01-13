@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/ahughes_me
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ahughes.me
+  * I am ahughes_me (https://keybase.io/ahughes_me) on keybase.
+  * I have a public key ASBLZL0onT9vJjgILV9JeXigtSeS9OmmSZ07HiebzmKPiQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01204b64bd289d3f6f2638082d5f497978a0b52792f4e9a6499d3b1e279bce628f890a",
+      "host": "keybase.io",
+      "kid": "01204b64bd289d3f6f2638082d5f497978a0b52792f4e9a6499d3b1e279bce628f890a",
+      "uid": "b02b3e17d4b861bdab8be26e48099019",
+      "username": "ahughes_me"
+    },
+    "merkle_root": {
+      "ctime": 1561665594,
+      "hash": "00dc51394bad856920473b049c1a38ed29bf33b02b97756ddc6983e7d0e1f40ea16cd877ddcccf5e085ad42b08eda4c17f9f1dbaf42c48d51415b056ff1ed366",
+      "hash_meta": "ec05b2a815768449ea8dd7354e37602df086a33ac994d30e13328e7b38f35599",
+      "seqno": 5652195
+    },
+    "service": {
+      "entropy": "W1ApTFf4EgD7C48xBeLV6ZNl",
+      "hostname": "ahughes.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.1.0"
+  },
+  "ctime": 1561665625,
+  "expire_in": 504576000,
+  "prev": "52fddc947bfb03184f952be5e01faf9efccf274572cb07626dfb446ceb5e2aa9",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgS2S9KJ0/byY4CC1fSXl4oLUnkvTppkmdOx4nm85ij4kKp3BheWxvYWTESpcCCcQgUv3clHv7AxhPlSvl4B+vnvzPJ0VyywdibftEbOteKqnEIHKzeXyRxYDxnlI5i2+2LkqP4OBIDjeRvdlV9EsrGB3BAgHCo3NpZ8RAirbk6GBG2kk285I6dms+QAMWWjlwg10nzQf54bvZvujwqUy9NoeDlV5Pu1V3+QN5xwVyD7WESee6JQr1R++ZBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFQIbLRc6fma1CG1nGxX1FbBF+3m2I2NEkl1zX/A34qXo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ahughes_me
+
+==================================================================
