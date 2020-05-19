@@ -17,6 +17,25 @@
 			opacity: 0.75;
 			margin-bottom: 0;
 			text-transform: uppercase;
+			border: none;
+
+			a {
+				border: none;
+
+				&:hover {
+					border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+				}
+			}
+		}
+
+		.footer-links a {
+			margin: 0 0.5rem;
+			border: none;
+			font-size: 1.5rem;
+
+			&:hover {
+				border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+			}
 		}
 
 		body.is-article-visible & {

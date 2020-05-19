@@ -42,19 +42,18 @@
 		}
 
 		.logo {
-			// width: 5.5rem;
-			// height: 5.5rem;
-			// line-height: 5.5rem;
-			width: 10rem;
-			height: 10rem;
-			line-height: 10rem;
+			width: 5.5rem;
+			height: 5.5rem;
+			line-height: 5.5rem;
 			border: solid _size(border-width) _palette(border);
 			border-radius: 100%;
+			display: table;
 
-			.icon {
-				&:before {
-					font-size: 2rem;
-				}
+			i {
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+				font-size: 3rem;
 			}
 		}
 
@@ -82,9 +81,9 @@
 			}
 
 			p {
-				text-transform: uppercase;
+				// text-transform: uppercase;
 				letter-spacing: _font(letter-spacing);
-				font-size: 0.8rem;
+				font-size: 1.25rem;
 				line-height: 2;
 			}
 		}
