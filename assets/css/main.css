@@ -1395,6 +1395,20 @@ body.is-preload #header .content .inner {
 #main article .close:active:before {
   background-color: rgba(255, 255, 255, 0.175);
 }
+#main article#intro .profile-card {
+  display: flex;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+#main article#intro .profile-card .profile-image {
+  width: 33%;
+  max-width: 50%;
+  border-radius: 100%;
+  margin-right: 2rem;
+}
+#main article#intro .profile-card h2 {
+  max-width: 100%;
+}
 @media screen and (max-width: 736px) {
   #main article {
     padding: 3.5rem 2rem 0.5rem 2rem;

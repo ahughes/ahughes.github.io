@@ -70,6 +70,25 @@
 					}
 				}
 			}
+
+			&#intro {
+				.profile-card {
+					display: flex;
+					margin-bottom: 2rem;
+					align-items: center;
+
+					.profile-image {
+						width: 33%;
+						max-width: 50%;
+						border-radius: 100%;
+						margin-right: 2rem;
+					}
+
+					h2 {
+						max-width: 100%;
+					}
+				}
+			}
 		}
 
 		@include breakpoint('<=small') {
