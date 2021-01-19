@@ -623,6 +623,7 @@ input[type=radio] + label:before {
 .image.main {
   display: block;
   margin: 2.5rem 0;
+  margin-bottom: 1rem;
   width: 100%;
 }
 .image.main img {
@@ -631,11 +632,13 @@ input[type=radio] + label:before {
 @media screen and (max-width: 736px) {
   .image.main {
     margin: 2rem 0;
+    margin-bottom: 1rem;
   }
 }
 @media screen and (max-width: 480px) {
   .image.main {
     margin: 1.5rem 0;
+    margin-bottom: 0.5rem;
   }
 }
 
@@ -1321,7 +1324,7 @@ body.is-preload #header .content .inner {
     display: none;
   }
 }
-@media screen and (max-device-height: 926px) and (orientation: landscape) {
+@media screen and (max-device-height: 926px) {
   #header {
     padding: 1.5rem 0;
   }
