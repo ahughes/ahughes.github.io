@@ -379,6 +379,11 @@
 
 			}
 
+		// Swap background
+			$(".logo").click(function(){
+  			$("#bg").toggleClass("Montreux");
+			});		
+
 		// Initialize.
 
 			// Hide main, articles.
