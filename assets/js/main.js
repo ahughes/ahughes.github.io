@@ -379,11 +379,6 @@
 
 			}
 
-		// Swap background
-			$(".logo").click(function(){
-  			$("#bg").toggleClass("Montreux");
-			});		
-
 		// Initialize.
 
 			// Hide main, articles.
@@ -397,4 +392,8 @@
 						$main._show(location.hash.substr(1), true);
 					});
 
+		// Swap background
+		$(".logo").click(function(){
+  		$("#bg").toggleClass("Montreux");
+		});
 })(jQuery);
