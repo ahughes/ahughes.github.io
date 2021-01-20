@@ -393,7 +393,8 @@
 					});
 
 		// Swap background
-		$(".logo").click(function(){
-  		$("#bg").toggleClass("Montreux");
+		$(".logo").dblclick(function(){
+			$("#bg").toggleClass("image");
+			$("#main article").toggleClass("more-opaque")
 		});
 })(jQuery);
