@@ -272,6 +272,13 @@ hr {
   text-align: right;
 }
 
+.flex-row-reverse {
+  -moz-flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
 /* Form */
 form {
   margin: 0 0 2rem 0;
@@ -980,8 +987,8 @@ button {
 
 /*#bg.image */
 #bg {
-  background-color: #0093E9;
-  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 80%);
+  background-color: #2B97E6;
+  background-image: linear-gradient(150deg, #2608ea 0%, #2af5e1 85%, #2af598 100%);
 }
 
 #bg {
@@ -1146,10 +1153,10 @@ body.is-preload #bg.image:before {
 #header .logo {
   width: 5.5rem;
   height: 5.5rem;
-  line-height: 5.5rem;
+  /*line-height: 5.5rem;*/
   border: solid 1px #ffffff;
   border-radius: 100%;
-  display: table;
+  /*display: table;*/
 }
 #header .logo i {
   display: table-cell;
@@ -1426,8 +1433,32 @@ body.is-preload #header .content .inner {
   border-radius: 100%;
   margin-right: 2rem;
 }
+#main article#intro .profile-card.flex-row-reverse .profile-image {
+  margin-right: 0;
+  margin-left: 2rem;
+}
 #main article#intro .profile-card h2 {
   max-width: 100%;
+}
+#main article#intro #intro-links {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-justify-content: space-around;
+  -webkit-justify-content: space-around;
+  -ms-justify-content: space-around;
+  justify-content: space-around;
+  -moz-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+#main article#intro #intro-links a.button {
+  margin: 1em 0;
+}
+#main article#intro #intro-links a.button i {
+  transform: scale(2);
 }
 #main article#skills .cert-list {
   display: -moz-flex;
@@ -1473,6 +1504,21 @@ body.is-preload #header .content .inner {
 }
 #main article#skills .cert-list .cert-list-item a span.cert-caption {
   display: none !important;
+}
+#main article#skills #education {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-justify-content: space-around;
+  -webkit-justify-content: space-around;
+  -ms-justify-content: space-around;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3em 0;
+}
+#main article#skills #education img {
+  max-width: 40%;
 }
 #main article#skills .skill-list {
   display: -moz-flex;
