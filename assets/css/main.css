@@ -1547,8 +1547,8 @@ body.is-preload #header .content .inner {
   max-width: 100%;
 }
 #main article#skills .profile-card .profile-image {
-  width: 33%;
-  max-width: 200px;
+  width: 25%;
+  max-width: 150px;
   border-radius: 100%;
   margin-right: 2rem;
 }
