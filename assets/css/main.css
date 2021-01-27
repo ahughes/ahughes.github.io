@@ -1495,6 +1495,14 @@ body.is-preload #header .content .inner {
   text-align: center;
   padding: 0.5rem;
 }
+@media screen and (max-width: 420px) {
+  #main article#skills .cert-list .cert-list-item {
+    -moz-flex-basis: 50%;
+    -webkit-flex-basis: 50%;
+    -ms-flex-basis: 50%;
+    flex-basis: 50%;
+  }
+}
 #main article#skills .cert-list .cert-list-item a {
   border-bottom: none;
 }
