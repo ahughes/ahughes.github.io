@@ -1548,6 +1548,14 @@ body.is-preload #header .content .inner {
   vertical-align: -0.0667em;
   padding: 0.66rem;
 }
+@media screen and (max-width: 420px) {
+  #main article#skills .skill-list .skill-list-item {
+    -moz-flex-basis: 100%;
+    -webkit-flex-basis: 100%;
+    -ms-flex-basis: 100%;
+    flex-basis: 100%;
+  }
+}
 #main article#skills .profile-card {
   display: flex;
   margin-bottom: 2rem;
