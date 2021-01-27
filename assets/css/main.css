@@ -1540,6 +1540,22 @@ body.is-preload #header .content .inner {
   vertical-align: -0.0667em;
   padding: 0.66rem;
 }
+#main article#skills .profile-card {
+  display: flex;
+  margin-bottom: 2rem;
+  align-items: center;
+  max-width: 100%;
+}
+#main article#skills .profile-card .profile-image {
+  width: 33%;
+  max-width: 200px;
+  border-radius: 100%;
+  margin-right: 2rem;
+}
+#main article#skills .profile-card.flex-row-reverse .profile-image {
+  margin-right: 0;
+  margin-left: 2rem;
+}
 #main article#experience a#linkedin {
   border-bottom: none;
 }
