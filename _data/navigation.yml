@@ -1,5 +1,5 @@
 ---
-- name: About
+- name: About Me
   link: intro
 - name: Experience
   link: experience

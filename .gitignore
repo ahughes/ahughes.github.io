@@ -1,6 +1,7 @@
 .DS_Store
 *.sublime-project
 *.sublime-workspace
+*.backup
 alexander_hughes_resume.pdf
 images/original/*
 images/banners/Executech-IT_Consultant(2).jpg

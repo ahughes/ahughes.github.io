@@ -263,7 +263,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (~> 214)
+  github-pages
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
