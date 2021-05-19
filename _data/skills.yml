@@ -24,7 +24,7 @@
 - name: Infrastructure as code
   icon: las la-file-code
 - name: DevOps Pipelines
-  icon: las la-cog
+  icon: las la-cog spin
 - name: macOS
   icon: lab la-apple
 - name: CLI
