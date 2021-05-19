@@ -1,0 +1,13 @@
+---
+- name: LinkedIn
+  link: https://www.linkedin.com/in/alexandernhughes/
+  icon: lab la-linkedin
+- name: Instagram
+  link: https://instagram.com/voilaquoi
+  icon: lab la-instagram
+- name: GitHub
+  link: https://github.com/ahughes
+  icon: lab la-github
+- name: Email
+  link: mai&#108;to&#58;&#104;e&#108;%6Co&#37;40a%6&#56;ug&#37;&#54;8es&#46;m%65
+  icon: las la-envelope-open-text

@@ -5,3 +5,8 @@ alexander_hughes_resume.pdf
 images/original/*
 images/banners/Executech-IT_Consultant(2).jpg
 images/banners/Executech-Training_TL(2).jpg
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor

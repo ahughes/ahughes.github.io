@@ -1,0 +1,44 @@
+      <article id="skills">
+        <h2 class="major">Certifications</h2>
+        <ul class="cert-list">
+          {% for cert in site.data.certs %}
+          <li class="cert-list-item">
+            <a href="{{ cert.link }}" title="Click to verify this {{ cert.issuer }} certification" target="_blank">
+              <img src="images/badges/{{ cert.img }}" alt="{{ issuer }} Certified: {{ cert.name }}">
+              <span class="cert-caption">{{ issuer }} Certified: {{ cert.name }} (Issued {{ issue_date }})</span>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+        <h2 class="major">Education</h2>
+        	<div id="education">
+        		<img src="images/Block_U.svg" alt="University of Utah Block U" title="University of Utah David Eccles School of Business" />
+        		<div>
+        			<h3>B.S. Information Systems</h3>
+        			<h5>2013 - 2017</h5>
+        			<h4>David Eccles School of Business<br><em>(University of Utah)</em></h4>
+        		</div>
+        	</div>
+        <h2 class="major">Competencies</h2>
+        <div class="skill-list">
+          {% for skill in site.data.skills %}
+          <div class="skill-list-item"><i class="{{ skill.icon }}"></i> {{ skill.name }}</div>
+          {% endfor %}
+        </div>
+        <hr>
+        <h2 class="major">What's on deck</h2>
+        <div class="profile-card">
+          <img src="images/badges/azure-devops-engineer-expert.png" alt="" class="profile-image">
+          <div>
+            <h4>Microsoft Certified: DevOps Engineer Expert</h4>
+            <p>I’m finalizing preparations for and anticipate passing the AZ-400 exam by the end of March 2021. Looking forward to moving this badge up to the top of the page.</p>
+          </div>
+        </div>
+        <div class="profile-card flex-row-reverse">
+          <img src="images/terraform-logo.png" alt="" class="profile-image">
+          <div>
+            <h4>Terraform (Infrastructure as Code)</h4>
+            <p>Although I already know my way around an ARM template, I’m working to gain more experience using Terraform to deploy/configure Azure infrastructure.</p>
+          </div>
+        </div>
+      </article>
