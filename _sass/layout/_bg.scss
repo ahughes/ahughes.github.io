@@ -1,6 +1,8 @@
 /* BG */
 
 	#bg {
+		background-color: #2897E6;
+		background-image: linear-gradient(150deg, #2608EA 0%, #2AF5E1 85%, #2AF598 100%);
 		@include vendor('transform', 'scale(1.0)');
 		-webkit-backface-visibility: hidden;
 		position: fixed;
@@ -10,7 +12,7 @@
 		height: 100vh;
 		z-index: 1;
 
-		&:before, &:after {
+		&.image:before, &.image:after {
 			content: '';
 			display: block;
 			position: absolute;
@@ -20,11 +22,11 @@
 			height: 100%;
 		}
 
-		&:before {
+		&.image:before {
 			@include vendor('transition', 'background-color #{_duration(bg)} ease-in-out');
 			@include vendor('transition-delay', '#{_duration(intro)}');
-			background-image:		linear-gradient(to top, #{_palette(bg-overlay)}, #{_palette(bg-overlay)}),
-									url('../../images/overlay.png');
+			// background-image:		linear-gradient(to top, #{_palette(bg-overlay)}, #{_palette(bg-overlay)}),
+									// url('../../images/overlay.png');
 			background-size:		auto,
 									256px 256px;
 			background-position:	center,
@@ -34,27 +36,27 @@
 			z-index: 2;
 		}
 
-		&:after {
+		&.image:after {
 			@include vendor('transform', 'scale(1.125)');
 			@include vendor('transition', (
 				'transform #{_duration(article)} ease-in-out',
 				'filter #{_duration(article)} ease-in-out'
 			));
-			background-image:		url('../../images/family.jpg');
-			background-position:	top;
+			background-image:		url('../../images/clouds_bg.jpg');
+			background-position:	center;
 			background-size:		cover;
 			background-repeat:		no-repeat;
 			z-index: 1;
 		}
 
-		body.is-article-visible & {
+		body.is-article-visible &.image {
 			&:after {
 				@include vendor('transform', 'scale(1.0825)');
 				@include vendor('filter', 'blur(0.2rem)');
 			}
 		}
 
-		body.is-preload & {
+		body.is-preload &.image {
 			&:before {
 				background-color: _palette(bg-alt);
 			}

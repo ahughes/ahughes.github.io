@@ -1,0 +1,31 @@
+---
+- name: Azure DevOps Engineer Expert
+  issuer: Microsoft
+  issue_date: March 2021
+  link: https://www.youracclaim.com/badges/f3b8b530-0721-4749-abcc-789e26b0d2dc/public_url
+  img: azure-devops-engineer-expert.png
+- name: Azure Solutions Architect Expert
+  issuer: Microsoft
+  issue_date: January 2020
+  link: https://www.youracclaim.com/badges/e27193f4-cda1-46be-af75-f16fc2c61f75/public_url
+  img: azure-solutions-architect-expert.png
+- name: Enterprise Administrator Expert
+  issuer: Microsoft 365
+  issue_date: January 2021
+  link: https://www.youracclaim.com/badges/35bc62de-dcaa-4c0c-9ff7-32c41be40c40/public_url
+  img: m365-enterprise-administrator-expert.png
+- name: Azure Security Engineer Associate
+  issuer: Microsoft
+  issue_date: April 2020
+  link: https://www.youracclaim.com/badges/9fdb2caf-4ec1-4ccf-b7ff-a3d8839184ad/public_url
+  img: azure-security-engineer-associate.png
+- name: Azure Administrator Associate
+  issuer: Microsoft
+  issue_date: June 2019
+  link: https://www.youracclaim.com/badges/988f9e41-00de-4d3e-9b98-1730bcc4bac2/public_url
+  img: azure-administrator-associate.png
+- name: Security Administrator Associate
+  issuer: Microsoft 365  
+  issue_date: December 2020
+  link: https://www.youracclaim.com/badges/3101d7fc-9304-4d19-aa6f-b99e171540ab/public_url
+  img: m365-security-administrator-associate.png

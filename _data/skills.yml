@@ -1,0 +1,37 @@
+---
+- name: Microsoft Azure
+  icon: las la-cloud
+- name: Microsoft 365
+  icon: lab la-microsoft
+- name: PowerShell
+  icon: las la-laptop-code
+- name: Azure AD + Identity
+  icon: las la-id-badge
+- name: Consulting experience
+  icon: las la-user-tie
+- name: Technical traning
+  icon: las la-chalkboard-teacher
+- name: Presentation skills
+  icon: las la-microphone-alt
+- name: Cloud migrations
+  icon: las la-cloud-upload-alt
+- name: Solutions architecture
+  icon: las la-pencil-ruler
+- name: Server administration
+  icon: las la-server
+- name: Network administration
+  icon: las la-sitemap
+- name: macOS
+  icon: lab la-apple
+- name: CLI
+  icon: las la-terminal
+- name: ARM templates
+  icon: las la-file-code
+- name: Diagramming
+  icon: las la-project-diagram
+- name: Cost optimization
+  icon: las la-file-invoice-dollar
+- name: Performance optimization
+  icon: las la-chart-area
+- name: Security & compliance
+  icon: las la-user-secret

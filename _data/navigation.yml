@@ -1,0 +1,11 @@
+---
+- name: About Me
+  link: intro
+- name: Experience
+  link: experience
+- name: Skills & Certs
+  link: skills
+- name: Outside of work
+  link: about
+- name: Get in touch
+  link: contact
