@@ -2,7 +2,7 @@
       <p class="copyright">&copy;&nbsp;2020 | Alexander&nbsp;Hughes | Design: <a href="https://html5up.net">HTML5&nbsp;UP</a></p>
       <p class="footer-links">
       	{% for item in site.data.social_links %}
-        <a href="{{ item.link}}" target="_blank"><i class="{{ item.icon }}"></i></a>
+        <a href="{{ item.link}}" target="_blank" title="{{ item.name }}"><i class="{{ item.icon }}"></i></a>
         {% endfor %}
       </p>
     </footer>

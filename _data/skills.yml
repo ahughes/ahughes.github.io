@@ -17,16 +17,20 @@
   icon: las la-cloud-upload-alt
 - name: Solutions architecture
   icon: las la-pencil-ruler
-- name: Server administration
-  icon: las la-server
-- name: Network administration
-  icon: las la-sitemap
+# - name: Server administration
+#   icon: las la-server
+# - name: Network administration
+#   icon: las la-sitemap
+- name: Infrastructure as code
+  icon: las la-file-code
+- name: DevOps Pipelines
+  icon: las la-cog
 - name: macOS
   icon: lab la-apple
 - name: CLI
   icon: las la-terminal
-- name: ARM templates
-  icon: las la-file-code
+# - name: ARM templates
+#   icon: las la-file-code
 - name: Diagramming
   icon: las la-project-diagram
 - name: Cost optimization
