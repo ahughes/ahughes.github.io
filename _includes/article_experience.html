@@ -1,32 +1,16 @@
-      <article id="experience">
-        <h2 class="major">Experience</h2>
-        <span class="image main">
-        	<img src="images/banners/Executech-Cloud_Architect.jpg" alt="Cloud Architect + Engineer | Executech" title="Cloud Architect + Engineer @ Executech" />
-        </span>
-        <h3 class="align-center">December 2019 - February 2021</h3>
-        <p>I help organizations to leverage the cloud. My primary focus at Executech was architecture (including pre-sales, proofs of concept, solutions design, creating cloud adoption plans, etc.), although I remained a hands-on engineer overseeing cloud implementations and providing escalation support to a team of engineers.</p>
-        <p>I drove revenue growth by expanding the cloud footprint of both new and existing clients, and helped Executech employ automation to develop a scalable managed service offering to supplement cloud consulting.</p>
-        <p>I continued to be Executech’s principal subject matter expert and trainer for both Azure and Microsoft modern workplace solutions.</p>
-		<hr>
-		<span class="image main">
-			<img src="images/banners/Executech-Training_TL.jpg" alt="Training Team Lead & Senior Consultant | Executech" title="Training Team Lead & Senior Consultant @ Executech" />
-		</span>
-		<h3 class="align-center">July 2017 - December 2019</h3>
-        <p>As training team lead, I presented/trained at dozens of company-wide meetings and frequently provided hands-on instruction in one-on-one and group settings. I led onboarding efforts and taught all new consultants/technicians in a recurring “technical bootcamp” program, focusing on Microsoft 365 and Azure IaaS.</p>
-        <p>As a senior consultant (and cloud SME), I was a primary resource for all things Microsoft and Azure across Executech. I also took the helm at larger clients with more complex and demanding requirements.</p>
-        <hr>
-        <span class="image main"><img src="images/banners/Executech-IT_Consultant.jpg" alt="IT Consultant / SysAdmin | Executech" title="IT Consultant @ Executech" /></span>
-        <h3 class="align-center">August 2016 - July 2017</h3>
-        <p>As a consultant at a managed services provider, I’ve been exposed to a wide array of technologies while working with many clients across multiple industries and verticals. This offers an opportunity for accelerated learning, but also presents a challenge of balancing competing interests, providing me a chance to further develop prioritization and time management skills.</p>
-        <hr>
-        <span class="image main">
-        	<img src="images/banners/SCM_Systems_Admin.jpg" alt="Systems Administrator | Snow Christensen & Martineau" title="Systems Administrator @ SCM Law" />
-        </span>
-        <h3 class="align-center">June 2013 - August 2016</h3>
-        <p>At SCM Law, I contributed to overall systems administration, including leading a small helpdesk team supporting approximately 130 attorneys and staff. I reported to the IT Director and helped maintain the (primarily Windows) server infrastructure and expanded my knowledge of Active Directory.</p>
-        <p>I sharpened my PowerShell / scripting skills and led several initiatives to automate and streamline multiple time-consuming workflows. I was also responsible for training new employees and occasionally presenting workshops.</p>
-        <hr>
-        <div class="align-center">
-          <a href="https://linkedin.com/in/alexandernhughes" target="_blank" title="Alexander Hughes on LinkedIn" class="button"><i style="transform: scale(2);" class="lab la-linkedin"></i> View LinkedIn</a>
-        </div>
-      </article>
+<article id="experience">
+  <h2 class="major">Experience</h2>
+
+  {% for i in site.data.experience %}
+  <span class="image main">
+    <img src="images/banners/{{ i.img }}" alt="{{ i.title }} | {{ i.company }}" title="{{ i.title }} @ {{ i.company }}" />
+  </span>
+  <h3 class="align-center">{{ i.dates }}</h3>
+  {{ i.description }}
+  <hr>
+  {% endfor %}
+
+  <div class="align-center">
+    <a href="https://linkedin.com/in/alexandernhughes" target="_blank" title="Alexander Hughes on LinkedIn" class="button"><i style="transform: scale(2);" class="lab la-linkedin"></i> View LinkedIn</a>
+  </div>
+</article>
