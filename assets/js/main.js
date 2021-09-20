@@ -395,6 +395,6 @@
 		// Swap background
 		$(".logo").dblclick(function(){
 			$("#bg").toggleClass("image");
-			$("#main article").toggleClass("more-opaque")
+			//$("#main article").toggleClass("more-opaque")
 		});
 })(jQuery);
