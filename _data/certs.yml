@@ -14,16 +14,16 @@
   issue_date: January 2021
   link: https://www.credly.com/badges/3609bf37-d9cd-466c-bee7-e101a88b8948/public_url
   img: m365-enterprise-administrator-expert.png
-- name: HashiCorp Certified Terraform Associate
-  issuer: HashiCorp
-  issue_date: January 2022
-  link: https://www.credly.com/badges/2bf87150-2e6d-4d92-a84e-f9c67d3bf877/public_url
-  img: hashicorp-terraform-associate.png
 - name: Azure Developer Associate
   issuer: Microsoft
   issue_date: September 2022
   link: https://www.credly.com/badges/7eb547aa-6401-4d55-bd73-77bf96a09d04/public_url
   img: azure-developer-associate.png
+- name: HashiCorp Certified Terraform Associate
+  issuer: HashiCorp
+  issue_date: January 2022
+  link: https://www.credly.com/badges/2bf87150-2e6d-4d92-a84e-f9c67d3bf877/public_url
+  img: hashicorp-terraform-associate.png
 - name: Azure Security Engineer Associate
   issuer: Microsoft
   issue_date: April 2020
