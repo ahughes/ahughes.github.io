@@ -1,10 +1,19 @@
 ---
 - title: Principal/Lead Azure Architect
-  company: Deft
+  company: Deft (ServerCentral)
   dates: March 2021 - February 2022
   img: Deft-Principal_Architect.jpg
   description: >
-    <p></p>
+    <p>As Principal Azure Architect, I played a pivotal role in shaping and growing Deft's Azure practice from
+    its infancy. My focus centered around defining and driving the technical direction for the 
+    practice, collaborating with other leaders on our Azure business model and go-to-market strategy, and 
+    working with clients to provide Azure solutions that met their specific business needs. I emerged as an 
+    Azure thought leader, driving the practice forward with cloud evangelism and expertise.</p>
+    <p>During my tenure, I served as a trusted advisor to internal sales teams, strengthened relationships 
+    with customers at various levels from engineers to C-level executives, led initiatives for 
+    architecture standardization and improvement, and provided final escalation support for engineers. I 
+    demonstrated strong familiarity with Azure offerings and provided leadership while collaborating with the
+    AWS practice to drive DevOps, Infrastructure as Code, and other auomation initiatives.</p>
 - title: Cloud Architect + Engineer
   company: Executech
   dates: December 2019 - Feburary 2021
